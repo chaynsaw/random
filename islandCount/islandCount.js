@@ -8,8 +8,8 @@
 function countIslands(mapStr) {
   function convertToGrid(mapStr) {
     var overallMatrix = [];
-    mapStr.split('\n').forEach(elem => overallMatrix.push(elem.split('')))
-    return overallMatrix
+    mapStr.split('\n').forEach(elem => overallMatrix.push(elem.split('')));
+    return overallMatrix;
   }
   var grid = convertToGrid(mapStr);
   var counter = 0;
